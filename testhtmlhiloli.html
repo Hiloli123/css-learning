@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Student Registration Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="test.css">
     </head>
     <body>
@@ -15,7 +16,7 @@
                     </div>
                 
                     <div class="subdiv">
-                        <input type="text" min="2" required placeholder="First name"/><br><br>
+                        <input type="text" min="2" required placeholder="First name"/>
                     </div>
                 </div>
                 <div class="diva">
@@ -23,7 +24,7 @@
                         <label for="last name">Last name:</label>
                     </div>
                     <div class="subdiv">
-                        <input type="text" min="2" required placeholder="Last name"><br><br>
+                        <input type="text" min="2" required placeholder="Last name">
                     </div>
                 </div>
                 <div class="diva">
@@ -32,7 +33,7 @@
                     </div>
                     <div class="subdiv">
                 
-                        <input type="email" placeholder="name@mail.com"/><br><br>
+                        <input type="email" placeholder="name@mail.com"/>
                     </div>
                 </div>
                 <div class="diva">
@@ -40,7 +41,7 @@
                         <label for="phone number">Phone Number:</label>
                     </div>
                     <div class="subdiv">
-                        <input type="text" required placeholder="0123456789" maxlength="10"><br><br>
+                        <input type="text" required placeholder="0123456789" maxlength="10"/>
                     </div>
                 </div>
                 <div class="diva">
@@ -48,7 +49,7 @@
                         <label for="Date of birth">Date of Birth: </label>
                     </div>
                     <div class="subdiv">
-                        <input type="date" required><br><br>
+                        <input type="date" required/>
                     </div>
                 </div>
                 <div class="diva">
@@ -56,8 +57,8 @@
                         <label for="Gender">Gender</label>
                     </div>
                     <div class="subdiv">
-                        <br> <input type="radio" name="Gender" > Male <br>
-                        <input type="radio" name="Gender" > Female <br>
+                        <input type="radio" name="Gender" > Male 
+                        <input type="radio" name="Gender" > Female 
                         <input type="radio" name="Gender"> Other
                     </div>
                 </div>
@@ -65,75 +66,139 @@
            <fieldset>
             <legend>Address Information</legend>
                 <div class="diva">
-                <label for="Street address">Street address:</label>
-                <input type="text" min="2" required><br><br>
-                <label for="city">City</label>
-                <input type="text" required><br><br>
-                <label for="state">State:</label>
-                <select>
-                <option value="Gandhinagar" selected> Gandhinagar</option>
-                <option value="mumbai">Mumbai</option>
-                </select><br>
-                <label for="post">Post-code</label>
-                <input type="number" ><br><br>
-                <label for="country">Country</label>
-                <select>
-                <option value="India">India</option>
-                <option value="U.S">U.S</option>
-                </select>
+                    <div class="subdiv">
+                        <label for="Street address">Street address:</label>
+                    </div>
+                    <div class="subdiv">
+                        <input type="text" min="2" required/>
+                    </div>
+                    <div class="subdiv">
+                        <label for="city">City</label>
+                    </div>
+                    <div class="subdiv">
+                        <input type="text" required>
+                    </div>
+                    <div class="subdiv">
+                        <label for="state">State:</label>
+                    </div>
+                    <div class="subdiv">
+                        <select>
+                        <option value="Gandhinagar" selected> Gandhinagar</option>
+                        <option value="mumbai">Mumbai</option>
+                        </select>
+                    </div>
+                    <div class="subdiv">
+                        <label for="post">Post-code</label>
+                    </div>
+                    <div class="subdiv">
+                        <input type="text" required>
+                    </div>
+                    <div class="subdiv">
+                        <label for="country">Country</label>
+                    </div>
+                    <div class="subdiv">
+                        <select>
+                        <option value="India">India</option>
+                        <option value="U.S">U.S</option>
+                        </select>
+                    </div>
                 </div>
-            </fieldset>
-            <fieldset>
+         </fieldset>
+        <fieldset>
             
-            <legend>Acedemic INformation</legend><br><br>
-            <div class="diva">
-                <label for="Student ID">Student ID</label>
-                <input type="number" name="ID" max="4"><br>
-                <label for="Program">Program/Course</label>
-                    <select>
-                    <option value="python">Python</option>
-                    <option value="Java">Java</option>
-                    </select><br><br>
-                <label for="Year of study">Year of Study</label>
-                <input type="number" min="4" max="6"><br>
-                <label for="CGPA">CGPA:</label>
-                <input type="number" min="0" max="4" step="0.01"><br><br>
-                <label for="Previous education">Previous education</label>
-                <textarea rows="5" cols="60" placeholder="Previous Education"></textarea>
-                
-            </div>
-            </fieldset>
+            <legend>Acedemic INformation</legend>
+                <div class="diva">
+                    <div class="subdiv">
+                        <label for="Student ID">Student ID</label>
+                    </div>
+                    <div class="subdiv">
+                        <input type="text" name="ID" >
+                    </div>
+                    <div class="subdiv">
+                        <label for="Program">Program/Course</label>
+                    </div>
+                    <div class="subdiv">
+                        <select>
+                        <option value="python">Python</option>
+                        <option value="Java">Java</option>
+                        </select>
+                    </div>
+                    <div class="subdiv">
+                        <label for="Year of study">Year of Study</label>
+                    </div>
+                    <div class="subdiv">
+                        <input type="text" >
+                    </div>
+                    <div class="subdiv">
+                        <label for="CGPA">CGPA:</label>
+                    </div>
+                    <div class="subdiv">
+                        <input type="number" min="0" max="4" step="0.01"/>
+                    </div>
+                    <div class="subdiv">
+                        <label for="Previous education">Previous education</label>
+                    </div>
+                    <div class="subdiv">
+                        <textarea rows="5" cols="35" placeholder="Previous Education"></textarea>
+                    </div>
+                </div>
+         </fieldset>
             <fieldset>
             
             <legend>Additional Information</legend>
             <div class="diva">
-                <label for="profile picture">Profile picture</label>
-                <input type="file" accept="image/*"/><br><br>
-                <label for="Emergency Contact Name">Emergency Contact Name</label>
-            
-                <input type="text" value="emergency name"><br><br>
-                <label for="Emergency contact number">Emergency Contact Number</label>
-                <input type="number" maxlength="10" placeholder="0123456789"><br><br>
+                <div class="subdiv">
+                    <label for="profile picture">Profile picture</label>
+                </div>
+                <div class="subdiv">
+                    <input type="file" accept="image/*"/>
+                </div>
+                <div class="subdiv">
+                    <label for="Emergency Contact Name">Emergency Contact Name</label>
+                </div>
+                <div class="subdiv">
+                    <input type="text" value="emergency name">
+                </div>
+                <div class="subdiv">
+                    <label for="Emergency contact number">Emergency Contact Number</label>
+                </div>
+                <div class="subdiv">
+                    <input type="text" maxlength="10" placeholder="0123456789">
             </div>
             </fieldset>
             <fieldset>
-                
-                <label for="Special requirement">Special Requirement:</label><br>
-                <div class="diva">
-                <input type="checkbox" name="Whilchair">Wheelchair Access
-                <input type="checkbox" name="Dietary Restrictions">Dietary Restrictions
-                <input type="checkbox" name="Learning Support"> Learning Support<br>
+                <div class="subdiv">
+                    <label for="Special requirement">Special Requirement:</label>
                 </div>
-                <div class="diva">
-                <input type="checkbox" name="newsletter"> Subscribe our Newsletter <br>
-                <input type="checkbox" name="term">Accept our terms and Condition <br>
+                <div class="diva three">
+                    <div class="subdiv">
+                        <input type="checkbox" name="Whilchair">Wheelchair Access
+                    </div>
+                    <div class="subdiv">
+                        <input type="checkbox" name="Dietary Restrictions">Dietary Restrictions
+                    </div>
+                    <div class="subdiv">
+                        <input type="checkbox" name="Learning Support"> Learning Support
+                    </div>
+                </div>
+                <div class="diva two">
+                    <div class="subdiv">
+                        <input type="checkbox" name="newsletter"> Subscribe our Newsletter 
+                    </div>
+                    <div class="subdiv">
+                        <input type="checkbox" name="term">Accept our terms and Condition
+                    </div>
                 </div>
             </fieldset>
 
             <div class="button">
+                <!-- <div class="subdiv"> -->
+                    <input type="submit">
+                <!-- </div>
+                <div class="subdiv"> -->
 
-                <input type="submit">
-                <input type="reset">
+                    <input type="reset">
+                <!-- </div> -->
             </div>
 
 
