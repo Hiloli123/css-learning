@@ -1,7 +1,23 @@
+/* .form{
+    justify-self: center;
+    background-color: beige;
+
+}
+.diva{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+@media (max-width:500px){
+    .diva{
+        grid-template-columns: 1fr;
+    }
+} */
+
+
 form{
     max-width: 800px;
-    justify-self: center;
-    padding: 1px;
+    /* justify-self: center; */
+    /* padding: 1px; */
     margin: 20px;
     border: 3px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,7 +25,12 @@ form{
     background-color:lightcyan;
     font-weight: bold;
 }
-
+form .diva{
+    padding: 10px;
+}
+.subdiv{
+    padding: 5px;
+}
 input[type="text"]{
     border-radius: 5px;
     border: 1px solid rgb(215, 28, 28);
@@ -25,7 +46,7 @@ input:hover{
 
 input[type="submit"]{
     padding: 15px 20px;
-    margin: 10px;
+    margin: 10px 10px;
     color:white;
     font-size: 16px;
     background-color: blueviolet;
@@ -60,38 +81,56 @@ input[type="reset"]:hover{
     border-bottom: 2px solid black;
     padding-top: 10px;
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 150px 1fr; 
+}
+.three{
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.two{
+    grid-template-columns: 1fr 1fr;
+
 }
 
 @media (max-width:700px){
 .button{
     align-self: center;
-    width: 100%;
-    /* display:grid; */
-    /* grid-column: span 1; */
+    /* width: 100%;
+    display:grid; 
+    grid-column: span 1; */
     font-size: 12px;
+     }
+
+}
+@media (max-width:700px){
+.diva{
+    grid-template-columns: 1fr;
+    width:100%;
+    /* padding: 10px ; */
+    /* margin: 10px ; */
+    
     }
-
+form .diva{
+    margin-right: 20%;
+    /* padding-right: 20%; */
+    
 }
-@media  (max-width:700px){
-.subdiv{
-    display: block;
+input[type="text"]{
+    width: 100%;
+    
     }
+input[type=email]{
+    width: 100%;
+}
+input[type=date]{
+    width: 100%;
+}
+
 }
 
 
 
 
 
-label, select{
-    text-align: left;
-    padding-left: 20px;
-    color: purple
-}
-input, textarea{
-   justify-self: end;
-}
-legend{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
+
